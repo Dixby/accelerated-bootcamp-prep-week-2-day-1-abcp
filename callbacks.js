@@ -13,8 +13,8 @@ var minusThree = function(num) {
 };
 
 // calling the "calling function" with a named callback function
-console.log(doStuffToNumberFive(plusTwo))
-console.log(doStuffToNumberFive(minusThree))
+console.log(doStuffToNumberFive(plusTwo));
+console.log(doStuffToNumberFive(minusThree));
 
 // calling the "calling function" with an anonymous callback function
 doStuffToNumberFive(function(num) {
