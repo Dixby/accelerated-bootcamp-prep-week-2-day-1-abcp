@@ -5,12 +5,12 @@ function doStuffToNumberFive(callback) {
 
 // define some callback functions
 var plusTwo =  function(num) {
-  return num + 2
-}
+  return num + 2;
+};
 
 var minusThree = function(num) {
-  return num - 3
-}
+  return num - 3;
+};
 
 // calling the "calling function" with a named callback function
 console.log(doStuffToNumberFive(plusTwo))
